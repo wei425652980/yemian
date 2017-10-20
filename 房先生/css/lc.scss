@@ -1,0 +1,236 @@
+@charset "utf-8";
+.header {
+    box-sizing: border-box;
+    padding: 0.08rem 0.09rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img {
+    display: block;
+    width: 1.09rem;
+}
+.wrapIcon {
+    width: 0.62rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    a {
+        
+    .ren {
+    height: 0.36rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    justify-content: space-between;
+    color: #999;
+    font-size: 0.11rem;
+}
+.icon-user {
+    font-size: 0.225rem;
+}
+.icon-nav {
+    font-size: 0.165rem;
+}
+.a1 {
+    width: 0.22rem;
+}
+.a2 {
+    width: 0.22rem;
+    margin-top: 0.05rem;
+}
+}
+}
+.tu{
+    width: 100%;
+    height: 1.25rem;
+    img{
+    width: 100%;
+    height: 100%;
+}
+}
+
+.tu1{
+    background-image: url(../img/process2.jpg);
+    width: 100%;
+    height: 4.275rem;
+    background-size: 100% 100%;   
+    .p1{
+        font-size: .18rem;
+        color: #ff4351;       
+        padding-top: .285rem;
+        padding-left: .485rem;
+    }
+    .p2{       
+        padding-top: .51rem;
+        padding-left: .93rem;
+    }
+    .p3{       
+        padding-top: .655rem;
+        padding-left: 1.875rem;
+    }
+    .p4{       
+        padding-top: .61rem;
+        padding-left: .93rem;
+    }
+    .p5{       
+        padding-top: .61rem;
+        padding-left: 1.875rem;
+    }
+}
+.tu2{
+    background-image: url(../img/process3.png);
+    width: 100%;
+    height: 4.445rem;
+    background-size: 100% 100%;
+    .p1{
+        font-size: .18rem;
+        color: #1B9BF7;       
+        padding-top: .285rem;
+        padding-left: 2.38rem;
+    }
+    .p2{       
+        padding-top: .56rem;
+        padding-left: 1.875rem;
+    }
+    .p3{       
+        padding-top: .655rem;
+        padding-left: .93rem;
+    }
+    .p4{       
+        padding-top: .65rem;
+        padding-left: 1.875rem;
+    }
+    .p5{       
+        padding-top: .61rem;
+        padding-left: .93rem;
+    }
+}
+.tu3{
+    background-image: url(../img/process4.jpg);
+    width: 100%;
+    height: 4.77rem;
+    background-size: 100% 100%;
+    .p1{
+        font-size: .18rem;
+        color: #7A73E9;       
+        padding-top: .285rem;
+        padding-left: .485rem;
+    }
+    .p2{       
+        padding-top: .51rem;
+        padding-left: .93rem;
+    }
+    .p3{       
+        padding-top: .655rem;
+        padding-left: 1.775rem;
+    }
+    .p4{       
+        padding-top: .61rem;
+        padding-left: .83rem;
+    }
+    .p5{       
+        padding-top: .61rem;
+        padding-left: 1.775rem;
+    }
+}
+.footer {
+  position: fixed;
+  z-index: initial;
+  left: 0;
+  top: 6.15rem;
+  width: 100%;
+  height: .53rem;
+  background: #333333;
+  .img1{
+    height: .12rem;
+    position: relative;
+    left: 0;
+    top: -0.41rem;
+}
+.img2{
+    height: .53rem;
+    position: relative;
+    left: .15rem;
+    top: 0rem;
+}
+ }
+  .footer .p1 {
+    color: #eed215;
+    font-size: .16rem;
+    position: relative;
+    left: 1rem;
+    top: -.45rem; }
+  .footer .p2 {
+    color: white;
+    font-size: .16rem;
+    position: relative;
+    left: .85rem;
+    top: -.37rem; }
+  
+
+.cping {
+  margin-top: .16rem;
+  height: .15rem;
+  width: 100%; }
+  .cping ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: .14rem; }
+    .cping ul li {
+      width: 25;
+      text-align: center;
+      line-height: .15rem; }
+  .cping .img1 {
+    height: .12rem;
+    position: relative;
+    left: 0;
+    top: -0.41rem; }
+
+.cping ul li:nth-of-type(1) {
+  color: #39C893; }
+
+#di {
+  width: 100%;
+  height: .53rem; }
+  #pp {
+  width: 100%;
+  height: .12rem;
+  background: #f4f4f4;
+  margin-top: .18rem; }
+
+.naRong {
+  margin-top: .16rem;
+  color: .14rem;
+  color: #333;
+  height: 0.88rem;
+  text-indent: .36rem;
+  line-height: .22rem; 
+  p{
+     width: 98%; 
+      text-align: center;
+  }
+  }
+
+.box {
+  width: 100%;
+  height: .18rem;
+  line-height: .18rem;
+  text-align: center;
+  margin-top: .18rem; }
+  .box p {
+    width: 100%;
+    height: .18rem; }
+    .box p .zz {
+      font-size: .16rem;
+      line-height: .18rem;
+      color: #89c893; }
+    .box p span {
+      margin-left: .06rem;
+      color: .14rem;
+      color: #333; }
+

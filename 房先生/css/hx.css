@@ -1,0 +1,217 @@
+html {
+  background: #F4F4F4; }
+
+header {
+  box-sizing: border-box;
+  padding: 0.08rem 0.09rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white; }
+  header img {
+    display: block;
+    width: 1.09rem; }
+  header .xiaogu {
+    margin-left: .465rem;
+    margin-top: .175rem;
+    font-size: .175rem;
+    background: white; }
+
+.wrapIcon {
+  width: 0.62rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .wrapIcon a .ren {
+    height: 0.36rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    justify-content: space-between;
+    color: #999;
+    font-size: 0.11rem; }
+  .wrapIcon a .icon-user {
+    font-size: 0.225rem; }
+  .wrapIcon a .icon-nav {
+    font-size: 0.165rem; }
+  .wrapIcon a .a1 {
+    width: 0.22rem; }
+  .wrapIcon a .a2 {
+    width: 0.22rem;
+    margin-top: 0.05rem; }
+
+.wrapLunbo a img {
+  width: 100%;
+  display: block; }
+
+nav {
+  width: 100%;
+  height: .5rem;
+  font-size: .18rem;
+  border-bottom: 1px solid #F4F4F4;
+  border-top: 1px solid #F4F4F4;
+  display: flex;
+  background: white; }
+  nav .lei {
+    width: 1.07rem;
+    height: .26rem;
+    margin-top: .115rem;
+    line-height: .26rem;
+    text-align: center;
+    border-right: 1px solid #F4F4F4; }
+    nav .lei span {
+      width: 25px;
+      height: 15px;
+      color: #999; }
+  nav .fdj {
+    width: 1.07rem;
+    height: .26rem;
+    margin-top: .115rem;
+    line-height: .26rem;
+    text-align: center; }
+    nav .fdj span {
+      font-size: .24rem;
+      color: #3ACA93; }
+
+ul {
+  width: 100%; }
+  ul li {
+    display: flex;
+    width: 100%; }
+    ul li .tu {
+      width: 1.755rem;
+      height: 1.69rem;
+      background: white;
+      margin-left: .085rem;
+      margin-top: .125rem; }
+      ul li .tu img {
+        width: 100%;
+        height: 1.117rem; }
+      ul li .tu .p1 {
+        width: 1.71rem;
+        text-align: center;
+        margin-top: .1rem;
+        font-size: .16rem;
+        color: #000; }
+      ul li .tu .p2 {
+        width: 100%;
+        text-align: center;
+        margin-top: .1rem;
+        font-size: .1rem;
+        color: #999; }
+
+.fanye {
+  width: 3.52rem;
+  height: .41rem;
+  margin: 0 auto;
+  display: flex;
+  background: white;
+  margin-top: .18rem; }
+  .fanye li {
+    width: 1.17rem;
+    line-height: .41rem;
+    text-align: center;
+    font-size: .18rem; }
+    .fanye li .li1 {
+      color: white;
+      background: #3CC893; }
+
+#pp {
+  width: 100%;
+  height: .12rem;
+  background: #f4f4f4;
+  margin-top: .18rem; }
+
+.naRong {
+  margin-top: .16rem;
+  color: .14rem;
+  color: #333;
+  height: 0.88rem;
+  text-indent: .36rem;
+  line-height: .22rem;
+  background: white;
+  padding-top: .18rem; }
+
+.box {
+  width: 100%;
+  height: .18rem;
+  line-height: .18rem;
+  text-align: center;
+  margin-top: .18rem;
+  background: white; }
+  .box p {
+    width: 100%;
+    height: .18rem; }
+    .box p .zz {
+      font-size: .16rem;
+      line-height: .18rem;
+      color: #89c893; }
+    .box p span {
+      margin-left: .06rem;
+      color: .14rem;
+      color: #333; }
+
+.cping {
+  background: white;
+  margin-top: .16rem;
+  height: .15rem;
+  width: 100%; }
+  .cping ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: .14rem; }
+    .cping ul li {
+      width: 25;
+      text-align: center;
+      line-height: .15rem; }
+  .cping .img1 {
+    height: .12rem;
+    position: relative;
+    left: 0;
+    top: -0.41rem; }
+
+.cping ul li:nth-of-type(1) {
+  color: #39C893; }
+
+.footer {
+  position: fixed;
+  z-index: initial;
+  left: 0;
+  top: 6.15rem;
+  width: 100%;
+  height: .53rem;
+  background: #333333; }
+  .footer .p1 {
+    color: #eed215;
+    font-size: .16rem;
+    position: relative;
+    left: 1rem;
+    top: -.45rem; }
+  .footer .p2 {
+    color: white;
+    font-size: .16rem;
+    position: relative;
+    left: .85rem;
+    top: -.37rem; }
+  .footer .img1 {
+    height: .12rem;
+    position: relative;
+    left: 0;
+    top: -0.41rem; }
+  .footer .img2 {
+    height: .53rem;
+    position: relative;
+    left: .15rem;
+    top: 0rem; }
+
+#bj {
+  background: white; }
+
+#di {
+  width: 100%;
+  height: .53rem; }
+
+/*# sourceMappingURL=hx.css.map */

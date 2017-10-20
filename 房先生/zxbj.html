@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/zxbj.css"/>
+		<link rel="stylesheet" type="text/css" href="iconfont/demo.css"/>
+		<link rel="stylesheet" type="text/css" href="iconfont/iconfont.css"/>
+		<script src="iconfont/iconfont.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="js/bootstrap.js" ></script>
+		<script type="text/javascript" src="js/bootstrap.min.js" ></script>
+		<title></title>
+	</head>
+	<body> 
+		<script>
+		(function(doc, win) {
+			var docEl = doc.documentElement, //根元素html
+				//判断窗口有没有orientationchange这个方法，有就赋值给一个变量，没有就返回resize方法。
+				resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+				recalc = function() {
+					var clientWidth = docEl.clientWidth;
+					if(!clientWidth) return;
+					//把document的fontSize大小设置成跟窗口成一定比例的大小，从而实现响应式效果。
+					docEl.style.fontSize = 20 * (clientWidth / 320) + 'px';
+				};
+			//alert(docEl)
+			if(!doc.addEventListener) return;
+			win.addEventListener(resizeEvt, recalc, false); //addEventListener事件方法接受三个参数：第一个是事件名称比如点击事件onclick，第二个是要执行的函数，第三个是布尔值
+			doc.addEventListener('DOMContentLoaded', recalc, false) //绑定浏览器缩放与加载时间
+		})(document, window);
+	</script>
+		<!--头部-->
+		<header>
+			<div><img src="img/logo.png" /></div>
+			<div style="font-size: 0.8rem;margin-top: 0.3rem;">装修报价</div>
+			<div class="wd">
+				<div><span class="icon iconfont icon-user"></span>
+					<p>我的</p>
+				</div>
+				<div><span class="icon iconfont icon-nav"></span>
+					<p>导航</p>
+				</div>
+			</div>
+		</header>
+		
+		<article>
+			<!--1-->
+			<div><img src="img/15十秒报价_spec_02.png" width="100%"/></div>
+			<!--报价2-->
+			<div>
+				房先生10S报价
+			</div>
+			<!--3-->
+			<!-------***------->
+			<div><img src="img/16装修贷款_spec_02.png" width="100%"/></div>
+			<!--、4-->
+			<!--input-->
+			<div>
+				<form class="form-horizontal">
+				  <div class="form-group  has-feedback">
+				    <div class="col-sm-9">
+				      <input type="text" class="form-control" id="inputSuccess3" aria-describedby="inputSuccess3Status"placeholder="请填写建筑面积">
+				      <span class="form-control-feedback" aria-hidden="true">m<sup>2</sup></span>
+				    </div>
+				  </div>
+				  <div>
+				  	<select class="form-control">
+					  <option>现代</option>
+					  <option>2</option>
+					  <option>3</option>
+					  <option>4</option>
+					  <option>5</option>
+					</select>
+				  </div>
+				  <div style="display: flex;width: 100%;justify-content: space-between;margin:0.75rem 0 0.75rem 0 ;">
+				  	<select class="form-control" style="width: 48%;">
+					  <option>1室</option>
+					  <option>2</option>
+					  <option>3</option>
+					  <option>4</option>
+					  <option>5</option>
+					</select>
+					<select class="form-control" style="width: 48%;">
+					  <option>1厅</option>
+					  <option>2</option>
+					  <option>3</option>
+					  <option>4</option>
+					  <option>5</option>
+					</select>
+				  </div>
+				  
+				   <div style="display: flex;width: 100%;justify-content: space-between;">
+				  	<select class="form-control" style="width: 31%;">
+					  <option>1厨</option>
+					  <option>2</option>
+					  <option>3</option>
+					  <option>4</option>
+					  <option>5</option>
+					</select>
+					<select class="form-control" style="width: 31%;">
+					  <option>1卫</option>
+					  <option>2</option>
+					  <option>3</option>
+					  <option>4</option>
+					  <option>5</option>
+					</select>
+					<select class="form-control" style="width: 31%;">
+					  <option>1阳台</option>
+					  <option>2</option>
+					  <option>3</option>
+					  <option>4</option>
+					  <option>5</option>
+					</select>
+				  </div>
+				  <button class="btn btn-default btn1" type="submit">立即申请</button>
+				</form>
+			</div>
+			
+			<!--5装修报价-->
+			<div>
+				<p style="font-size: 1rem;margin:0 auto;margin: 1.2rem 0 1.56rem 0;">装修报价</p>
+				<p style="font-size: 0.84rem; color:#999999;"><span>全包装修总价：</span><span style="color: red;">81,889,78</span><span>元</span></p>
+				<p style="font-size: 0.84rem;margin:2rem 0 1.25rem 0 ;">您还可以选择</p>
+				<p style="font-size: 0.84rem;  color:#999999;"><span>房先森装修半包套餐价，</span><span style="color: #FEB814;">399</span><span>元/平米</span></p>
+				<button class="btn btn-default btn2" type="submit">预约399套餐</button>
+			</div>
+			
+			<!--6-->
+			<div>
+				我们可以为您提供
+			</div>
+			<!--7-->
+			<div style="width: 100%;">
+				<img src="img/16装修贷款_spec_02.png" width="100%"/>
+			</div>
+			<!--8-->
+			<div>
+				<div>
+					<div><img src="img/15十秒报价_spec_05.png"/></div>
+					<div>产品系列</div>
+					<div style="color: darkgray;">半包，全包套餐，全屋定制个性升级</div>
+				</div>
+				<div>
+					<div><img src="img/15十秒报价_spec_05.png"/></div>
+					<div>产品系列</div>
+					<div style="color: darkgray;">半包，全包套餐，全屋定制个性升级</div>
+				</div>
+				<div>
+					<div><img src="img/15十秒报价_spec_05.png"/></div>
+					<div>产品系列</div>
+					<div style="color: darkgray;">半包，全包套餐，全屋定制个性升级</div>
+				</div>
+				<div>
+					<div><img src="img/15十秒报价_spec_05.png"/></div>
+					<div>产品系列</div>
+					<div style="color: darkgray;">半包，全包套餐，全屋定制个性升级</div>
+				</div>
+				<div>
+					<div><img src="img/15十秒报价_spec_05.png"/></div>
+					<div>产品系列</div>
+					<div style="color: darkgray;">半包，全包套餐，全屋定制个性升级</div>
+				</div>
+				<div>
+					<div><img src="img/15十秒报价_spec_05.png"/></div>
+					<div>产品系列</div>
+					<div style="color: darkgray;">半包，全包套餐，全屋定制个性升级</div>
+				</div>
+			</div>
+			<!--10-->
+			<div class="jian_jie">
+				房先森互联网家装有别于传统公司与其他装修中介平台，一自营模式整合设计师与项目经理，杜绝项目转包外包，利用互联网将工地进行在线全景直播，通过去中间环节，提供装修套餐+个性制定服务。
+			</div>
+		</article>
+		
+		<footer>
+			<div><span style="color:greenyellow;" class="icon iconfont icon-hot-line"></span>服务热线：400-9977-658</div>
+			<div class="chu_ping">
+				<div style="color:greenyellow;">触屏版</div>
+				<div>电脑版</div>
+				<div>关于我们</div>
+				<div>联系我们</div>
+			</div><hr />
+			<div style="color: darkgray;width: 100%;text-align: center;margin-bottom: 0.7rem;">&copy;2016 siefand.com 刚需房装修就房先森</div>
+			
+			<div><img src="img/14方案详情_spec_02.png" width="100%"/></div>	
+			</div>
+		</footer>
+	</body>
+</html>

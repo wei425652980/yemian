@@ -1,0 +1,163 @@
+header {
+  box-sizing: border-box;
+  padding: 0.08rem 0.09rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  header p {
+    text-align: center; }
+  header .wrapIcon {
+    width: 0.3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    header .wrapIcon a .ren {
+      height: 0.36rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-decoration: none;
+      justify-content: space-between;
+      color: #999;
+      font-size: 0.11rem; }
+    header .wrapIcon a .icon-user {
+      font-size: 0.225rem; }
+    header .wrapIcon a .icon-nav {
+      font-size: 0.165rem; }
+    header .wrapIcon a .a2 {
+      width: 0.22rem;
+      margin-top: 0.05rem; }
+
+.black {
+  width: 100%;
+  height: .53rem;
+  background: #202020; }
+
+.o-tu {
+  width: 100%;
+  height: 2.265rem; }
+
+.o-js {
+  width: 100%;
+  height: 2.1rem;
+  background: #202020;
+  display: flex; }
+  .o-js .o-yuan {
+    width: 100%;
+    height: .3rem;
+    background: #202020;
+    display: flex;
+    margin-top: .23rem; }
+    .o-js .o-yuan .o {
+      width: .235rem;
+      height: .225rem;
+      border-radius: 50%;
+      margin-left: .112rem;
+      border: 2px solid #38ca94; }
+    .o-js .o-yuan .o-1 {
+      width: .125rem;
+      height: .125rem;
+      border-radius: 50%;
+      background: #38ca94;
+      margin-top: .05rem;
+      margin-left: .05rem; }
+    .o-js .o-yuan .o-h {
+      width: .555rem;
+      height: .02rem;
+      background: #38ca94;
+      line-height: .3rem;
+      margin-top: .12rem; }
+
+#pp {
+  width: 100%;
+  height: .12rem;
+  background: #f4f4f4; }
+
+.naRong {
+  margin-top: .16rem;
+  color: .14rem;
+  color: #333;
+  height: 0.88rem;
+  text-indent: .36rem;
+  line-height: .22rem; }
+  .naRong p {
+    margin: auto;
+    width: 3.57rem;
+    height: 0.88rem; }
+
+.box {
+  width: 100%;
+  height: .18rem;
+  line-height: .18rem;
+  text-align: center;
+  margin-top: .18rem; }
+  .box p {
+    width: 100%;
+    height: .18rem; }
+    .box p .zz {
+      font-size: .16rem;
+      line-height: .18rem;
+      color: #89c893; }
+    .box p span {
+      margin-left: .06rem;
+      color: .14rem;
+      color: #333; }
+
+.cping {
+  margin-top: .16rem;
+  height: .15rem;
+  width: 100%; }
+  .cping ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: .14rem; }
+    .cping ul li {
+      width: 25;
+      text-align: center;
+      line-height: .15rem; }
+
+.cping ul li:nth-of-type(1) {
+  color: #39C893; }
+
+.footer {
+  position: fixed;
+  z-index: initial;
+  left: 0;
+  top: 6.15rem;
+  width: 100%;
+  height: .53rem;
+  background-color: rgba(254, 106, 115, 0.8);
+  display: flex; }
+  .footer span {
+    font-size: 0.28rem;
+    color: white;
+    margin-left: 1.175rem;
+    margin-top: 0.13rem; }
+  .footer p {
+    font-size: 0.18rem;
+    width: 1.155rem;
+    height: 0.165rem;
+    margin-left: 0.195rem;
+    margin-top: 0.18rem;
+    color: white; }
+
+.button3 {
+  width: 1rem;
+  height: .25rem;
+  background: #feb205;
+  color: white;
+  text-align: center;
+  line-height: .25rem;
+  border: none;
+  position: relative;
+  left: 2.7rem;
+  top: -.7rem;
+  border-radius: 5%; }
+
+#di {
+  width: 100%;
+  height: .53rem; }
+
+/*# sourceMappingURL=oum.css.map */
